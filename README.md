@@ -7,12 +7,16 @@ KiCAD 6 libraries used by PiFactory board designs.
 ### Footprints
 
 * PCB coils, including Python script to generate PCB coil shapes
+* RF Module Goodies:
+  * E72-2G4M20S1E
   
 ### Symbols
 
 * Regulator Linear Goodies:
   * MCP1811A, MCP1812A - 150mA/300mA 1.8V LDO, SOT-23
   * MCP1811B, MCP1812B - 150mA/300mA 1.8V LDO with shutdown, SOT-23-5
+* RF Module Goodies:
+  * E72-2G4M20S1E
 * Sensor Proximity Goodies:
   * Inductive Proximity Sensor
   * LDC2112 - Inductive Touch Solution, 2-channel, TSSOP-16
@@ -31,6 +35,12 @@ KiCAD 6 libraries used by PiFactory board designs.
 4. Profit!
 
 You can add libraries either globally or per-project. I do it per project.
+
+## Module Footprint Wizard
+
+Most boring part of a module footprint design is correct placement of all the pads. This wizard places pads on the left, bottom and right sides of the module and adds a courtyard. The rest can be done manually.
+
+Copy [scripts/ModuleFootprintWizard.py](scripts/ModuleFootprintWizard.py) file to your `~/KiCad/5.99/scripting` directory (or any other directory meant for KiCAD 6 plugins). You will get 'Module' wizard in the list of Footpring Wizards.
 
 
 ---
