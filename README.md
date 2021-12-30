@@ -9,6 +9,14 @@ KiCAD 6 libraries used by PiFactory board designs.
 * PCB coils, including Python script to generate PCB coil shapes
 * RF Module Goodies:
   * E72-2G4M20S1E
+  * ESP-C3-12F
+* Connector JST:
+  * JST-ZH 1x2 P1.5mm Vertical
+  * JST-ZH 1x4 P1.5mm Vertical
+* Connector Molex:
+  * Molex PicoBlade 1x7 P1.25mm Vertical
+* Connector USB:
+  * USB-C 6pin Vertical
   
 ### Symbols
 
@@ -17,6 +25,7 @@ KiCAD 6 libraries used by PiFactory board designs.
   * MCP1811B, MCP1812B - 150mA/300mA 1.8V LDO with shutdown, SOT-23-5
 * RF Module Goodies:
   * E72-2G4M20S1E
+  * ESP-C3-12F
 * Sensor Proximity Goodies:
   * Inductive Proximity Sensor
   * LDC2112 - Inductive Touch Solution, 2-channel, TSSOP-16
